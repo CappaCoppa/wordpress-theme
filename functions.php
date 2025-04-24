@@ -1,6 +1,6 @@
 <?php
 // Enqueue Classes
-foreach (glob(get_template_directory() . '/classes/*.php') as $file) {
+foreach (glob(get_template_directory() . '/inc/classes/*.php') as $file) {
     require_once $file;
 }
 
